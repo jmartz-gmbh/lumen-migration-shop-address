@@ -1,11 +1,11 @@
 {
-    "name": "jmartz-gmbh/lumen-migration-address",
-    "description": "Php Lumen Address Migration",
+    "name": "jmartz-gmbh/lumen-migration-shop-address",
+    "description": "Php Lumen Shop Address Migration",
     "require": {
         "php": "^7.3|^7.4|^8.0",
         "illuminate/http": "^7.3.0|^8.0",
         "illuminate/support": "^7.3.0|^8.0",
-        "illuminate/database": "^7.3.0|^8.0"
+        "illuminate/database": "^8.40.0"
     },
     "autoload": {
         "classmap": [
@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "App\\Providers\\AddressMigrationProvider"
+                "App\\Providers\\ShopAddressMigrationProvider"
             ]
         }
     }
